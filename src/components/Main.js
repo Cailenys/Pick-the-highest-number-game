@@ -105,7 +105,7 @@ componentDidUpdate (prevProps,prevState){
   }
 }
 
-/*ReactDOM.render(
+ReactDOM.render(
   <Main />, 
   document.getElementById('root')
-);*/
+);
