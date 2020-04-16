@@ -4,6 +4,7 @@ import { TopNumber } from '../TopNumber';
 import { Display } from '../Display';
 import { Target } from '../Target';
 import { random, clone } from '../helpers'; 
+import './App.css';
 
 const fieldStyle = {
   position: 'absolute',
@@ -13,7 +14,7 @@ const fieldStyle = {
   height: '60%',
 };
 
-class App extends React.Component {
+export default class Main extends React.Component {
   constructor(props) {
     super(props);
 
@@ -104,7 +105,7 @@ componentDidUpdate (prevProps,prevState){
   }
 }
 
-ReactDOM.render(
-  <App />, 
-  document.getElementById('app')
-);
+/*ReactDOM.render(
+  <Main />, 
+  document.getElementById('root')
+);*/
